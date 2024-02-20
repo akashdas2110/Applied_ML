@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/USER/Desktop/Git/Trial/mlruns/0/8b8f9bfb6b58490fb3f237c491a5b380/artifacts
+end_time: 1708421348059
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8b8f9bfb6b58490fb3f237c491a5b380
+run_name: sassy-hound-496
+run_uuid: 8b8f9bfb6b58490fb3f237c491a5b380
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708421342373
+status: 3
+tags: []
+user_id: USER

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/USER/Desktop/Git/Trial/mlruns/0/6628be0a603343819513f09d4b0fc777/artifacts
+end_time: 1708421378151
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6628be0a603343819513f09d4b0fc777
+run_name: abundant-ox-753
+run_uuid: 6628be0a603343819513f09d4b0fc777
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708421363131
+status: 3
+tags: []
+user_id: USER
