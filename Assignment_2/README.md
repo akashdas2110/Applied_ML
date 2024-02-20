@@ -1,4 +1,4 @@
-#Objective : Experiment Tracking [due 20 Feb 2024]
+## Objective : Experiment Tracking [due 20 Feb 2024]
 
 1.data version control
 
@@ -14,3 +14,9 @@
     in train.ipynb track the experiments and model versions using mlflow
     build, track, and register 3 benchmark models using MLflow
     checkout and print AUCPR for each of the three benchmark models
+
+### Description
+
+The Data folder contains the original dataset emails.csv and the splitted data using different seeds stored in separate folders tracked by dvc.
+
+The mulruns folder used to track 3 Benchmarked models.
