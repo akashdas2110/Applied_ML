@@ -75,7 +75,7 @@ def test_score_obvious_non_spam(trained_model):
 # Integration Test
 def test_flask():
     # Launch the Flask app using os.system
-    os.system('start /b python app_2.py')
+    os.system('start /b python app.py')
 
     # Wait for the app to start up
     time.sleep(10)
