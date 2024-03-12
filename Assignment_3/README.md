@@ -30,6 +30,3 @@ flask serving
     
            In coverage.txt produce the coverage report output of the unit test and integration test using pytest
 
-
-https://docs.pytest.org/en/8.0.x/
-https://flask.palletsprojects.com/en/2.3.x/quickstart/
