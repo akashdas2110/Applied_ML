@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body {
+      background-image: url("https://as1.ftcdn.net/v2/jpg/02/15/09/60/1000_F_215096070_HpZQAccv7FgaWJsDxNxfPVJQxMA4tmg1.jpg"); /* Replace with your image path */
+      background-size: cover; /* Stretch image to cover the entire background */
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Prevent image repetition */
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    .frm-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 50px;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for readability */
+    }
+
+    .title {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #fff; /* White text color for better contrast */
+    }
+
+    .input-field {
+      width: 600px;
+      height: 100px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+      
+    }
+
+    .ans {
+      margin-top: 20px;
+    }
+
+    .btn {
+      background-color: #4CAF50; /* Green button color */
+      color: white; /* White button text */
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .btn:hover { /* Button hover effect */
+      background-color: #3e8e41; /* Darker green on hover */
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spam Detection</title>
+</head>
+<body>
+  <div class="frm-container">
+    <h1 class="title">Spam Detection</h1>
+    <form action="{{ url_for('spam')}}" method="post">
+      <p>
+        <h3 for="sent" style="color:white;">Enter sentence to check its prediction and propensity:</h3>
+        <textarea class="input-field" id="sent" name="sent" rows="4" cols="50" required></textarea>
+      </p>
+      <p>
+        <button type="submit" id="btn" class="btn" style="color:red;"><h2>Display Result</h2></button>
+      </p>
+    </form>
+    <p class="ans"> </p>
+  </div>
+</body>
+</html>

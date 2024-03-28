@@ -1,0 +1,25 @@
+============================= test session starts =============================
+platform win32 -- Python 3.10.2, pytest-8.1.1, pluggy-1.4.0 -- c:\Users\USER\AppData\Local\Programs\Python\Python310\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.10.2', 'Platform': 'Windows-10-10.0.19045-SP0', 'Packages': {'pytest': '8.1.1', 'pluggy': '1.4.0'}, 'Plugins': {'hydra-core': '1.3.2', 'cov': '4.1.0', 'html': '4.1.1', 'metadata': '3.1.1'}}
+rootdir: c:\Users\USER\Desktop\AML_A4
+plugins: hydra-core-1.3.2, cov-4.1.0, html-4.1.1, metadata-3.1.1
+collecting ... collected 8 items
+
+test.py::test_score_smoke PASSED                                         [ 12%]
+test.py::test_score_format PASSED                                        [ 25%]
+test.py::test_score_threshold_0 PASSED                                   [ 37%]
+test.py::test_score_threshold_1 PASSED                                   [ 50%]
+test.py::test_score_obvious_spam PASSED                                  [ 62%]
+test.py::test_score_obvious_non_spam PASSED                              [ 75%]
+test.py::test_flask PASSED                                               [ 87%]
+test.py::test_docker PASSED						 [100%]
+
+============================== warnings summary ===============================
+..\..\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\backports.py:22
+  c:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\backports.py:22: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+    import distutils  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+--- Generated html report: file:///c:/Users/USER/Desktop/AML_A3/report.html ---
+======================== 8 passed, 1 warning in 26.38s ========================
